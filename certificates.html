@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Certificates | Myfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for icons (optional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="gradient-bg"></div>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Myfolio</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ui.html">UI/UX Designs</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="certificates.html" class="active">Certificates</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="contact-btn">Contact Me</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="certificates-hero">
+      <h1><span class="gradient-text">Certificates</span> Showcase</h1>
+      <p class="certificates-subtext">
+        A collection of my achievements, skills, and learning journeys.
+      </p>
+    </section>
+
+    <!-- Technical Certificates Section -->
+    <section class="cert-section">
+      <h2 class="cert-section-title"><i class="fas fa-laptop-code"></i> Technical Certificates</h2>
+      <div class="cert-gallery">
+        <div class="cert-card">
+          <img src="certificate-tech1.jpg" alt="Certificate 1" />
+          <div class="cert-info">
+            <h3>Front-End Development</h3>
+            <p>Coursera • 2024</p>
+            <a href="certificate-link1.pdf" target="_blank" class="cert-link">View Certificate</a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <img src="certificate-tech2.jpg" alt="Certificate 2" />
+          <div class="cert-info">
+            <h3>JavaScript Algorithms</h3>
+            <p>freeCodeCamp • 2023</p>
+            <a href="certificate-link2.pdf" target="_blank" class="cert-link">View Certificate</a>
+          </div>
+        </div>
+        <!-- Add more technical certificates -->
+      </div>
+    </section>
+
+    <!-- Design Certificates Section -->
+    <section class="cert-section">
+      <h2 class="cert-section-title"><i class="fas fa-pen-nib"></i> Design Certificates</h2>
+      <div class="cert-gallery">
+        <div class="cert-card">
+          <img src="certificate-design1.jpg" alt="Design Certificate 1" />
+          <div class="cert-info">
+            <h3>UI/UX Design Specialization</h3>
+            <p>Google • 2024</p>
+            <a href="certificate-link3.pdf" target="_blank" class="cert-link">View Certificate</a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <img src="certificate-design2.jpg" alt="Design Certificate 2" />
+          <div class="cert-info">
+            <h3>Adobe XD Masterclass</h3>
+            <p>Udemy • 2023</p>
+            <a href="certificate-link4.pdf" target="_blank" class="cert-link">View Certificate</a>
+          </div>
+        </div>
+        <!-- Add more design certificates -->
+      </div>
+    </section>
+
+    <!-- Workshops & Others Section -->
+    <section class="cert-section">
+      <h2 class="cert-section-title"><i class="fas fa-chalkboard-teacher"></i> Workshops & Others</h2>
+      <div class="cert-gallery">
+        <div class="cert-card">
+          <img src="image/certificates.jpg" alt="Workshop Certificate" />
+          <div class="cert-info">
+            <h3>Operational Industrial Engineer</h3>
+            <p>Forage • 2025</p>
+            <a href="image/certificate.pdf" target="_blank" class="cert-link">View Certificate</a>
+          </div>
+        </div>
+        <!-- Add more workshops/other certificates -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Vinay Sunda. All rights reserved.</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+

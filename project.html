@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Your Name</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+      <h1 class="logo">Your Name</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="designs.html">UI/UX Designs</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>A brief description of project one. Add your details here.</p>
+        <a href="#" class="btn" target="_blank" rel="noopener">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>A brief description of project two. Add your details here.</p>
+        <a href="#" class="btn" target="_blank" rel="noopener">View Project</a>
+      </div>
+      <!-- Add more project cards as needed -->
+    </div>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
